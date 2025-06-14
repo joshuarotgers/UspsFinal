@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>USPS LOT Nav</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+  <header class="bg-blue-900 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">USPS LOT NAV</h1>
+  </header>
+
+  <main class="p-4">
+    <div id="app">
+      <h2 class="text-lg font-semibold">Welcome to USPS Line of Travel Navigation</h2>
+      <p>Start by scanning packages or loading a route.</p>
+
+      <div class="mt-6">
+        <button id="newRouteBtn" class="btn-primary">Start New Route Trace</button>
+        <button id="scanPackagesBtn" class="btn-secondary">Scan Packages</button>
+        <button id="loadRouteBtn" class="btn-secondary">Load Existing Route</button>
+        <button id="adminBtn" class="btn-secondary">Supervisor/Admin</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="fixed bottom-0 w-full bg-gray-200 p-2 text-center text-xs">
+    USPS LOT NAV © 2025
+  </footer>
+</body>
+</html>
