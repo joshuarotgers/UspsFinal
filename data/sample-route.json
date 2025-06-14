@@ -1,0 +1,31 @@
+{
+  "route_id": "TEST-ROUTE-001",
+  "route_name": "Sample USPS Route",
+  "created": "2025-06-15T12:00:00Z",
+  "gps_trace": [
+    { "lat": 45.12345, "lon": -93.12345, "timestamp": 1686864000 },
+    { "lat": 45.12365, "lon": -93.12365, "timestamp": 1686864060 }
+  ],
+  "stops": [
+    {
+      "stop_id": 1,
+      "address": "123 Main St",
+      "lot_sequence": 1,
+      "gps_location": { "lat": 45.12345, "lon": -93.12345 },
+      "mailbox_notes": "Box 4 / Smith Family",
+      "packages": [
+        { "package_id": "PKG001", "package_size": "mailbox" }
+      ]
+    },
+    {
+      "stop_id": 2,
+      "address": "456 Rural Rd",
+      "lot_sequence": 2,
+      "gps_location": { "lat": 45.12400, "lon": -93.12400 },
+      "mailbox_notes": "Parcel Locker 2",
+      "packages": [
+        { "package_id": "PKG002", "package_size": "door" }
+      ]
+    }
+  ]
+}
